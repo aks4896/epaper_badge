@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ESP32-footprints-Shem-Lib
 LIBS:zetex
 LIBS:wiznet
 LIBS:video
@@ -95,6 +94,7 @@ LIBS:ESD_Protection
 LIBS:Altera
 LIBS:74xgxx
 LIBS:SeeedOPL-IC
+LIBS:diy_rcl
 LIBS:bsides_badge-cache
 EELAYER 25 0
 EELAYER END
