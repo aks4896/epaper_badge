@@ -1,0 +1,1555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/alex/dev/epaper_badge/hw/bsides_badge.sch</source>
+    <date>Fri 01 Dec 2017 08:18:58 PM EST</date>
+    <tool>Eeschema 4.0.7-e2-6376~58~ubuntu14.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>8 aug 2017</date>
+        <source>bsides_badge.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/pg2_ESP32/" tstamps="/598905E9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pg2_ESP32.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ESP32-WROOM</value>
+      <footprint>ESP32-footprints-Lib:ESP32-WROOM</footprint>
+      <fields>
+        <field name="MPN">ESP32-WROOM-32</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="ESP32-WROOM"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>598A5A59</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Micro_SD_Card</value>
+      <fields>
+        <field name="SKU">320090008</field>
+      </fields>
+      <libsource lib="conn" part="Micro_SD_Card"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>598E3F28</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>CONN_01X24</value>
+      <fields>
+        <field name="SKU">320060000</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X24"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>598E3FC6</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>FT230XS</value>
+      <footprint>SSOP-16</footprint>
+      <fields>
+        <field name="SKU">310070030</field>
+      </fields>
+      <libsource lib="ftdi" part="FT230XS"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>598E44D9</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>USB_B</value>
+      <fields>
+        <field name="SKU">320010005</field>
+      </fields>
+      <libsource lib="conn" part="USB_B"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>598E4716</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>470@100MHz</value>
+      <fields>
+        <field name="SKU">303030008</field>
+      </fields>
+      <libsource lib="device" part="Ferrite_Bead_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>598EFC04</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010138</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>598EFED9</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010111</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>598EFF81</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010103</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>598F006E</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>47pF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010007</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>598F0D22</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>47pF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010007</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>598F0D87</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>22</value>
+      <fields>
+        <field name="SKU">301010289</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>598F1A3D</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>22</value>
+      <fields>
+        <field name="SKU">301010289</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>598F1CC7</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ETA1036</value>
+      <fields>
+        <field name="MPN">ETA1036-50S2F-T</field>
+        <field name="SKU">310030153</field>
+      </fields>
+      <libsource lib="SeeedOPL-IC" part="PMIC-ETA1036-50S2F-T_SOT23-5_"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>598F4825</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010138</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>598F5160</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>0</value>
+      <fields>
+        <field name="SKU">301010292</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>59921E4C</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>0</value>
+      <fields>
+        <field name="SKU">301010292</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>59921E53</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>6.8uH</value>
+      <fields>
+        <field name="SKU">SWPA4030S6R8MT</field>
+      </fields>
+      <libsource lib="device" part="L_Core_Ferrite"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>599226BE</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010111</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>599234D2</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>22uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="SKU">302010171</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>599237CA</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>22uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="SKU">302010171</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5992394E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>CJT1117-3.3</value>
+      <fields>
+        <field name="SKU">310030097</field>
+      </fields>
+      <libsource lib="regul" part="LT1117-3.3"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5992446F</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>22uF</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <fields>
+        <field name="SKU">302020008</field>
+      </fields>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>599248D9</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010138</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>599251C0</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="SKU">305030028</field>
+      </fields>
+      <libsource lib="transistors" part="2N7002"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>59925966</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1M</value>
+      <fields>
+        <field name="SKU">301010100</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>599260B5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <fields>
+        <field name="SKU">301010293</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>59927104</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <fields>
+        <field name="SKU">301010291</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>599274E8</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010138</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>59928C39</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <fields>
+        <field name="SKU">301010293</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5992AF23</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <fields>
+        <field name="SKU">301010293</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5992B6AD</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <fields>
+        <field name="SKU">301010293</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5992B7CF</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <fields>
+        <field name="SKU">301010293</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5992B7D6</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <fields>
+        <field name="SKU">301010293</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5992B941</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <fields>
+        <field name="SKU">301010293</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5992B948</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>0</value>
+      <fields>
+        <field name="SKU">301010292</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5992F1EC</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>0</value>
+      <fields>
+        <field name="SKU">301010292</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5992F1F3</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>0</value>
+      <fields>
+        <field name="SKU">301010292</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5992F361</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>0</value>
+      <fields>
+        <field name="SKU">301010292</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5992F368</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>0</value>
+      <fields>
+        <field name="SKU">301010292</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5992F453</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>0</value>
+      <fields>
+        <field name="SKU">301010292</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5992F45A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <fields>
+        <field name="SKU">301010293</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>59930B43</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>470</value>
+      <fields>
+        <field name="SKU">301010088</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>59930D7D</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <fields>
+        <field name="SKU">311020017</field>
+      </fields>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>59931F0F</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010138</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>599333DA</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>CJ2302</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="SKU">305030015</field>
+      </fields>
+      <libsource lib="transistors" part="2N7002"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>59941074</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>1.0uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010139</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>59942255</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>1.0uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010139</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>59943ECA</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1.0uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010139</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>59943FDD</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>1.0uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010139</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>59943FE6</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>1.0uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010139</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>599443B4</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>1.0uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010139</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>59944AA1</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>??</value>
+      <fields>
+        <field name="SKU">aoeu</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>59945B6E</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>??</value>
+      <fields>
+        <field name="SKU">aoue</field>
+      </fields>
+      <libsource lib="device" part="L_Core_Ferrite"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5994A95C</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010111</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5994C8E5</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>B540</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <fields>
+        <field name="SKU">304020012</field>
+      </fields>
+      <libsource lib="diode" part="B120-E3"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5994D8A5</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>1.0uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010139</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5994E0FE</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1.0uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010139</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5994EA19</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>B540</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <fields>
+        <field name="SKU">304020012</field>
+      </fields>
+      <libsource lib="diode" part="B120-E3"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5994ED50</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>B540</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <fields>
+        <field name="SKU">304020012</field>
+      </fields>
+      <libsource lib="diode" part="B120-E3"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5994F7D4</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>1.0uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010139</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>599500F3</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1.0uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="SKU">302010139</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>599446B2</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <fields>
+        <field name="SKU">301010293</field>
+      </fields>
+      <libsource lib="bsides_badge-cache" part="R_Small_us"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>59947780</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>TEST_POINT</value>
+      <fields>
+        <field name="MPN">DO_NOT_POPULATE</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5A22130C</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>TEST_POINT</value>
+      <fields>
+        <field name="MPN">DO_NOT_POPULATE</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5A2219F5</tstamp>
+    </comp>
+    <comp ref="TP12">
+      <value>TEST_POINT</value>
+      <fields>
+        <field name="MPN">DO_NOT_POPULATE</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5A221B27</tstamp>
+    </comp>
+    <comp ref="TP13">
+      <value>TEST_POINT</value>
+      <fields>
+        <field name="MPN">DO_NOT_POPULATE</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5A223595</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>TEST_POINT</value>
+      <fields>
+        <field name="MPN">DO_NOT_POPULATE</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5A224B4B</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TEST_POINT</value>
+      <fields>
+        <field name="MPN">DO_NOT_POPULATE</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5A226DBB</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>TEST_POINT</value>
+      <fields>
+        <field name="MPN">DO_NOT_POPULATE</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5A226FDD</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>TEST_POINT</value>
+      <fields>
+        <field name="MPN">DO_NOT_POPULATE</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5A2271C5</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>TEST_POINT</value>
+      <fields>
+        <field name="MPN">DO_NOT_POPULATE</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5A2271CB</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TEST_POINT</value>
+      <fields>
+        <field name="MPN">DO_NOT_POPULATE</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5A227B9B</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TEST_POINT</value>
+      <fields>
+        <field name="MPN">DO_NOT_POPULATE</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5A227BA1</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TEST_POINT</value>
+      <fields>
+        <field name="MPN">DO_NOT_POPULATE</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5A22A376</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TEST_POINT</value>
+      <fields>
+        <field name="MPN">DO_NOT_POPULATE</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5A22B43D</tstamp>
+    </comp>
+    <comp ref="TP14">
+      <value>TEST_POINT</value>
+      <fields>
+        <field name="MPN">DO_NOT_POPULATE</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5A231E83</tstamp>
+    </comp>
+    <comp ref="TP15">
+      <value>TEST_POINT</value>
+      <fields>
+        <field name="MPN">DO_NOT_POPULATE</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5A231E89</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <fields>
+        <field name="SKU">320180010</field>
+      </fields>
+      <libsource lib="device" part="Battery_Cell"/>
+      <sheetpath names="/pg2_ESP32/" tstamps="/598905E9/"/>
+      <tstamp>5A23C183</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="diode" part="B120-E3">
+      <aliases>
+        <alias>B130-E3</alias>
+        <alias>B140-E3</alias>
+        <alias>B150-E3</alias>
+        <alias>B160-E3</alias>
+      </aliases>
+      <description>20V 1A Schottky Barrier Rectifier Diode, SMA/DO-214AC</description>
+      <docs>http://www.vishay.com/docs/88946/b120.pdf</docs>
+      <footprints>
+        <fp>D*DO?214AC*</fp>
+        <fp>D*SMA*</fp>
+        <fp>DO?214AC*</fp>
+        <fp>SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">B120-E3</field>
+        <field name="Footprint">Diodes_SMD:SMA_Standard</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>MMBF170</alias>
+      </aliases>
+      <description>50V Vds, 0.22 A Id, N-channel MOSFET, SOT-23</description>
+      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Battery_Cell">
+      <description>single battery cell</description>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector, single row, 01x01, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X24">
+      <description>Connector, single row, 01x24, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X24</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1_Small">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bsides_badge-cache" part="ESP32-WROOM">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM</field>
+        <field name="Footprint">ESP32-footprints-Lib:ESP32-WROOM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_out"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="SENSOR_VP" type="input"/>
+        <pin num="5" name="SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="BiDi"/>
+        <pin num="7" name="IO35" type="BiDi"/>
+        <pin num="8" name="IO32" type="BiDi"/>
+        <pin num="9" name="IO33" type="BiDi"/>
+        <pin num="10" name="IO25" type="BiDi"/>
+        <pin num="11" name="IO26" type="BiDi"/>
+        <pin num="12" name="IO27" type="BiDi"/>
+        <pin num="13" name="IO14" type="BiDi"/>
+        <pin num="14" name="IO12" type="BiDi"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="IO13" type="BiDi"/>
+        <pin num="17" name="SD2" type="BiDi"/>
+        <pin num="18" name="SD3" type="BiDi"/>
+        <pin num="19" name="CMD" type="BiDi"/>
+        <pin num="20" name="CLK" type="input"/>
+        <pin num="21" name="SDO" type="BiDi"/>
+        <pin num="22" name="SD1" type="BiDi"/>
+        <pin num="23" name="IO15" type="BiDi"/>
+        <pin num="24" name="IO2" type="BiDi"/>
+        <pin num="25" name="IO0" type="BiDi"/>
+        <pin num="26" name="IO4" type="input"/>
+        <pin num="27" name="IO16" type="BiDi"/>
+        <pin num="28" name="IO17" type="BiDi"/>
+        <pin num="29" name="IO5" type="BiDi"/>
+        <pin num="30" name="IO18" type="input"/>
+        <pin num="31" name="IO19" type="BiDi"/>
+        <pin num="32" name="NC" type="NotConnected"/>
+        <pin num="33" name="IO21" type="BiDi"/>
+        <pin num="34" name="RXD0" type="BiDi"/>
+        <pin num="35" name="TXD0" type="BiDi"/>
+        <pin num="36" name="IO22" type="BiDi"/>
+        <pin num="37" name="IO23" type="BiDi"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="GND-PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ftdi" part="FT230XS">
+      <description>Full Speed USB to Basic UART, SSOP-16</description>
+      <docs>http://www.ftdichip.com/Products/ICs/FT230X.html</docs>
+      <footprints>
+        <fp>SSOP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT230XS</field>
+        <field name="Footprint">SSOP-16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="output"/>
+        <pin num="2" name="~RTS" type="input"/>
+        <pin num="3" name="VCCIO" type="power_in"/>
+        <pin num="4" name="RXD" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="~CTS" type="input"/>
+        <pin num="7" name="CBUS2" type="BiDi"/>
+        <pin num="8" name="USBDP" type="BiDi"/>
+        <pin num="9" name="USBDM" type="BiDi"/>
+        <pin num="10" name="3V3OUT" type="power_out"/>
+        <pin num="11" name="~RESET" type="input"/>
+        <pin num="12" name="VCC" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="CBUS1" type="BiDi"/>
+        <pin num="15" name="CBUS0" type="BiDi"/>
+        <pin num="16" name="CBUS3" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Ferrite_Bead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">Ferrite_Bead_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="LT1117-2.85">
+      <aliases>
+        <alias>LT1117-3.3</alias>
+        <alias>LT1117-5.0</alias>
+      </aliases>
+      <description>800mA Low-Dropout Linear Regulator, 2.85V fixed output, SOT-223/TO-263</description>
+      <docs>http://cds.linear.com/docs/en/datasheet/1117fd.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT1117-2.85</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="L_Core_Ferrite">
+      <description>Inductor with Ferrite Core</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Core_Ferrite</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Micro_SD_Card">
+      <description>Micro SD Card Socket</description>
+      <docs>http://katalog.we-online.de/em/datasheet/693072010801.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Micro_SD_Card</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="BiDi"/>
+        <pin num="2" name="DAT3/CD" type="BiDi"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="input"/>
+        <pin num="8" name="DAT1" type="input"/>
+        <pin num="9" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-IC" part="PMIC-ETA1036-50S2F-T_SOT23-5_">
+      <footprints>
+        <fp>*SOT-23-5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PMIC-ETA1036-50S2F-T_SOT23-5_</field>
+        <field name="MPN">ETA1036-50S2F-T</field>
+        <field name="SKU">310030153</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="BiDi"/>
+        <pin num="2" name="GND" type="BiDi"/>
+        <pin num="3" name="EN" type="BiDi"/>
+        <pin num="4" name="IN" type="BiDi"/>
+        <pin num="5" name="SW" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="bsides_badge-cache" part="R_Small_us">
+      <description>Resistor, small symbol</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_us</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_B">
+      <description>USB Type B connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="transistors">
+      <uri>/home/alex/dev/kicad_libs/kicad-library/library/transistors.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/home/alex/dev/kicad_libs/kicad-library/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/home/alex/dev/kicad_libs/kicad-library/library/conn.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/home/alex/dev/kicad_libs/kicad-library/library/regul.lib</uri>
+    </library>
+    <library logical="switches">
+      <uri>/home/alex/dev/kicad_libs/kicad-library/library/switches.lib</uri>
+    </library>
+    <library logical="ftdi">
+      <uri>/home/alex/dev/kicad_libs/kicad-library/library/ftdi.lib</uri>
+    </library>
+    <library logical="diode">
+      <uri>/home/alex/dev/kicad_libs/kicad-library/library/diode.lib</uri>
+    </library>
+    <library logical="SeeedOPL-IC">
+      <uri>/home/alex/dev/kicad_libs/SeeedOPL for Kicad-alpha-2017-06/SeeedOPL-IC.lib</uri>
+    </library>
+    <library logical="bsides_badge-cache">
+      <uri>/home/alex/dev/epaper_badge/hw/bsides_badge-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/pg2_ESP32/DISP_BUSY">
+      <node ref="J5" pin="16"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="2" name="/pg2_ESP32/DISP_RESETn">
+      <node ref="J5" pin="15"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="3" name="/pg2_ESP32/DISP_D">
+      <node ref="J5" pin="14"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="4" name="/pg2_ESP32/DISP_CS">
+      <node ref="J5" pin="13"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="5" name="/pg2_ESP32/DISP_SCK">
+      <node ref="U1" pin="29"/>
+      <node ref="J5" pin="12"/>
+    </net>
+    <net code="6" name="/pg2_ESP32/DISP_MOSI">
+      <node ref="J5" pin="11"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="7" name="/pg2_ESP32/SD_CLK">
+      <node ref="R12" pin="2"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="8" name="/pg2_ESP32/SD_DAT2">
+      <node ref="R9" pin="2"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="9" name="/pg2_ESP32/SD_DAT3">
+      <node ref="U1" pin="16"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="10" name="/pg2_ESP32/SD_CMD">
+      <node ref="U1" pin="23"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="11" name="/pg2_ESP32/SD_DAT0">
+      <node ref="R13" pin="2"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="12" name="/pg2_ESP32/SD_DAT1">
+      <node ref="R14" pin="2"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="13" name="/pg2_ESP32/VGL">
+      <node ref="C21" pin="1"/>
+      <node ref="J5" pin="21"/>
+    </net>
+    <net code="14" name="/pg2_ESP32/VGH">
+      <node ref="C24" pin="1"/>
+      <node ref="J5" pin="20"/>
+    </net>
+    <net code="15" name="/pg2_ESP32/VCOM">
+      <node ref="C16" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="16" name="/pg2_ESP32/VSH">
+      <node ref="J5" pin="5"/>
+      <node ref="C19" pin="1"/>
+    </net>
+    <net code="17" name="/pg2_ESP32/VSL">
+      <node ref="C17" pin="1"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="18" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2"/>
+    </net>
+    <net code="19" name="/pg2_ESP32/VCI">
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="20" name="Net-(J4-Pad5)">
+      <node ref="J4" pin="5"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="21" name="Net-(J4-Pad7)">
+      <node ref="R16" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="J4" pin="7"/>
+    </net>
+    <net code="22" name="Net-(J4-Pad8)">
+      <node ref="R15" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="J4" pin="8"/>
+    </net>
+    <net code="23" name="+3V3">
+      <node ref="J5" pin="7"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="J5" pin="9"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J4" pin="4"/>
+      <node ref="J5" pin="10"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="L3" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="24" name="Net-(R3-Pad1)">
+      <node ref="SW1" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="25" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="26" name="/pg2_ESP32/EN">
+      <node ref="R3" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="27" name="/pg2_ESP32/GDR">
+      <node ref="J5" pin="23"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="28" name="/pg2_ESP32/RESE">
+      <node ref="R23" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="J5" pin="22"/>
+    </net>
+    <net code="29" name="Net-(J5-Pad24)">
+      <node ref="J5" pin="24"/>
+      <node ref="TP10" pin="1"/>
+    </net>
+    <net code="30" name="/pg2_ESP32/PREVGL">
+      <node ref="D3" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="TP15" pin="1"/>
+    </net>
+    <net code="31" name="/pg2_ESP32/PREVGH">
+      <node ref="D2" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="J5" pin="4"/>
+      <node ref="TP14" pin="1"/>
+    </net>
+    <net code="32" name="Net-(TP7-Pad1)">
+      <node ref="TP7" pin="1"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="33" name="Net-(TP8-Pad1)">
+      <node ref="U4" pin="16"/>
+      <node ref="TP8" pin="1"/>
+    </net>
+    <net code="34" name="Net-(TP3-Pad1)">
+      <node ref="TP3" pin="1"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="35" name="Net-(TP4-Pad1)">
+      <node ref="U4" pin="6"/>
+      <node ref="TP4" pin="1"/>
+    </net>
+    <net code="36" name="Net-(TP6-Pad1)">
+      <node ref="U4" pin="14"/>
+      <node ref="TP6" pin="1"/>
+    </net>
+    <net code="37" name="Net-(J5-Pad6)">
+      <node ref="TP13" pin="1"/>
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="38" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="39" name="Net-(J5-Pad19)">
+      <node ref="J5" pin="19"/>
+      <node ref="TP11" pin="1"/>
+    </net>
+    <net code="40" name="Net-(J5-Pad18)">
+      <node ref="J5" pin="18"/>
+      <node ref="TP12" pin="1"/>
+    </net>
+    <net code="41" name="Net-(TP5-Pad1)">
+      <node ref="TP5" pin="1"/>
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="42" name="Net-(C18-Pad1)">
+      <node ref="D2" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="L3" pin="2"/>
+    </net>
+    <net code="43" name="Net-(C18-Pad2)">
+      <node ref="C18" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="44" name="GND">
+      <node ref="C9" pin="2"/>
+      <node ref="J5" pin="17"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J5" pin="8"/>
+      <node ref="U1" pin="38"/>
+      <node ref="U1" pin="39"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="15"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="J4" pin="6"/>
+      <node ref="J4" pin="9"/>
+      <node ref="C5" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="U4" pin="13"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J3" pin="5"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="J3" pin="4"/>
+      <node ref="C15" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C19" pin="2"/>
+    </net>
+    <net code="45" name="Net-(C11-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="46" name="+5V">
+      <node ref="L2" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U4" pin="12"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="47" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="48" name="Net-(C9-Pad1)">
+      <node ref="R7" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="49" name="Net-(R8-Pad1)">
+      <node ref="U4" pin="9"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="50" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="51" name="Net-(U1-Pad36)">
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="52" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="53" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="54" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="55" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="56" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="57" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="58" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="59" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="60" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="61" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="62" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="63" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="64" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="65" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="66" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="67" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="68" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="69" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="70" name="Net-(J4-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="71" name="Net-(J4-Pad2)">
+      <node ref="R19" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="72" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R5" pin="1"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="73" name="Net-(C2-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="74" name="/pg2_ESP32/3V3OUT">
+      <node ref="TP2" pin="1"/>
+      <node ref="U4" pin="10"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="75" name="/pg2_ESP32/UART_RX">
+      <node ref="R21" pin="1"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="76" name="Net-(R21-Pad2)">
+      <node ref="U4" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="77" name="/pg2_ESP32/UART_TX">
+      <node ref="U1" pin="35"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="78" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="79" name="Net-(L1-Pad2)">
+      <node ref="U2" pin="5"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="80" name="/pg2_ESP32/VBATT">
+      <node ref="L1" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="BT1" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+  </nets>
+</export>
