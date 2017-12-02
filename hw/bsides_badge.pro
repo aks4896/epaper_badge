@@ -1,4 +1,4 @@
-update=Sat 12 Aug 2017 09:23:09 AM EDT
+update=Sat 02 Dec 2017 09:29:37 AM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -47,7 +47,7 @@ LibName16=valves
 version=1
 [eeschema]
 version=1
-LibDir=lib/ESP32-kiCAD-Footprints-master/ESP32-Footprints;../../kicad_libs/kicad-library/library
+LibDir=../../kicad_libs/kicad-library/library;../../kicad_libs/ESP32-kiCAD-Footprints-master/ESP32-Footprints
 [eeschema/libraries]
 LibName1=power
 LibName2=device
